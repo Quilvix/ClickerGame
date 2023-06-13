@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1263,16 +1265,16 @@ TextureImporter:
       GUI1_67: -273163831
       GUI1_117: 1857136169
       GUI1_132: 1621249286
-      GUI1_58: 707100915
       GUI1_72: 2091323264
       GUI1_12: -36447405
+      GUI1_63: -1586757669
       GUI1_36: 811485646
       GUI1_31: -1136419162
       GUI1_33: -32669027
       GUI1_50: -479737208
-      GUI1_63: -1586757669
       GUI1_136: 148208554
       GUI1_83: -497415207
+      GUI1_58: 707100915
       GUI1_44: -1468590294
       GUI1_20: 1005390909
       GUI1_113: -999500219
@@ -1374,7 +1376,6 @@ TextureImporter:
       GUI1_124: -379823828
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

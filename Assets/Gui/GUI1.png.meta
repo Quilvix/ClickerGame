@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1263,16 +1265,16 @@ TextureImporter:
       GUI1_67: 686176682
       GUI1_117: 1060879709
       GUI1_132: -1406067052
-      GUI1_36: -468302099
-      GUI1_12: 1567814920
-      GUI1_63: -2137218061
-      GUI1_31: -485682159
-      GUI1_33: 1673066067
-      GUI1_50: -1851346178
-      GUI1_136: 1137661373
-      GUI1_58: -1023233041
-      GUI1_83: 1615533708
       GUI1_72: 1712261244
+      GUI1_36: -468302099
+      GUI1_63: -2137218061
+      GUI1_50: -1851346178
+      GUI1_12: 1567814920
+      GUI1_33: 1673066067
+      GUI1_58: -1023233041
+      GUI1_136: 1137661373
+      GUI1_31: -485682159
+      GUI1_83: 1615533708
       GUI1_44: -1369774823
       GUI1_20: 103145752
       GUI1_113: -547338380
@@ -1374,7 +1376,6 @@ TextureImporter:
       GUI1_124: -185112522
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
