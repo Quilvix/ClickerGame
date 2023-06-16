@@ -1,16 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class Clicker : MonoBehaviour
 {
     public static Clicker Instance;
     public GameObject ShopPanel;
+    public GameObject SettingsPanel;
+    public GameObject AchievementsPanel;
 
     public void ShowAndHideShop()
     {
         ShopPanel.SetActive(!ShopPanel.activeSelf);
+    }
+    public void ShowAndHideSettings()
+    {
+        SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+    }
+    public void ShowAndHideAchievements()
+    {
+        AchievementsPanel.SetActive(!AchievementsPanel.activeSelf);
     }
     public float Money
     {
@@ -33,9 +44,9 @@ public class Clicker : MonoBehaviour
     {
         amplifiers = new List<DamageAmplifier>()
         {
-            new DamageAmplifier(DamageAmplifier.AmplifierType.PLUS_CLICK_DAMAGE, 0, false, 2, 1.5f, 100, 75),
-            new DamageAmplifier(DamageAmplifier.AmplifierType.CLICK_CRIT, 100, false, 2, 2f, 200, 100,  25),
-            new DamageAmplifier(DamageAmplifier.AmplifierType.PASSIVE_DAMAGE, 0, true, 2, 1.25f, 125, 50)
+            new DamageAmplifier(DamageAmplifier.AmplifierType.PLUS_CLICK_DAMAGE, 0, false, 1f, 1, 100, 125),
+            new DamageAmplifier(DamageAmplifier.AmplifierType.CLICK_CRIT, 100, false, 2, 2f, 200, 100,  85),
+            new DamageAmplifier(DamageAmplifier.AmplifierType.PASSIVE_DAMAGE, 0, true, 2, 1, 125, 100)
         };
 
         for (int i = 0; i < amplifierPrefs.Count; i++)
